@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 160" role="img" aria-labelledby="title desc">
+  <title id="title">Pilates Explained logo</title>
+  <desc id="desc">A Pilates Explained wordmark with a circular equipment and archive mark.</desc>
+  <rect width="680" height="160" fill="#fffaf2"/>
+  <g>
+    <circle cx="80" cy="80" r="64" fill="none" stroke="#8a6a35" stroke-width="7"/>
+    <path d="M38 94h84" stroke="#1e2527" stroke-width="6" stroke-linecap="round"/>
+    <rect x="49" y="72" width="48" height="16" rx="3" fill="#a77b46"/>
+    <path d="M45 72V52M92 72V52M44 52h50" stroke="#1e2527" stroke-width="4" stroke-linecap="round"/>
+    <path d="M64 55c10-8 20-8 30 0v24c-10-7-20-7-30 0z" fill="#f7f1e8" stroke="#8a6a35" stroke-width="3"/>
+    <path d="M94 55c10-8 20-8 30 0v24c-10-7-20-7-30 0z" fill="#f7f1e8" stroke="#8a6a35" stroke-width="3"/>
+    <path d="M38 111h84" stroke="#8a6a35" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="170" y="74" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#8a6a35">Pilates Explained</text>
+  <text x="172" y="108" font-family="Inter, Arial, sans-serif" font-size="18" fill="#1e2527">History, method, and first-class decisions</text>
+</svg>

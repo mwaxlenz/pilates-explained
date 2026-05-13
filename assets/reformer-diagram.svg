@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Reformer diagram</title>
+  <desc id="desc">Stylized diagram of a Pilates Reformer.</desc>
+  <rect width="720" height="420" fill="#fffaf2"/>
+  <path d="M80 292h560" stroke="#1e2527" stroke-width="16" stroke-linecap="round"/>
+  <rect x="164" y="212" width="288" height="66" rx="8" fill="#1f6f6d"/>
+  <rect x="480" y="196" width="108" height="82" rx="8" fill="#a14f38"/>
+  <path d="M172 206V124M430 206V124M590 196v-92" stroke="#1e2527" stroke-width="10" stroke-linecap="round"/>
+  <path d="M154 126h300M560 106h60" stroke="#c69a40" stroke-width="10" stroke-linecap="round"/>
+  <path d="M118 292c52-78 116-112 194-104" fill="none" stroke="#a14f38" stroke-width="8" stroke-linecap="round"/>
+  <text x="360" y="360" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#1e2527">REFORMER</text>
+</svg>

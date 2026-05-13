@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Wunda Chair diagram</title>
+  <desc id="desc">Stylized diagram of a Pilates Wunda Chair.</desc>
+  <rect width="720" height="420" fill="#fffaf2"/>
+  <rect x="260" y="138" width="200" height="158" rx="8" fill="#1f6f6d"/>
+  <rect x="282" y="104" width="156" height="42" rx="8" fill="#a14f38"/>
+  <path d="M286 296v38M434 296v38M260 334h200" stroke="#1e2527" stroke-width="12" stroke-linecap="round"/>
+  <path d="M460 242c64 18 92 48 84 90" fill="none" stroke="#c69a40" stroke-width="12" stroke-linecap="round"/>
+  <path d="M460 210h88" stroke="#a14f38" stroke-width="12" stroke-linecap="round"/>
+  <path d="M306 150v126M360 150v126M414 150v126" stroke="#fffaf2" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+  <text x="360" y="360" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#1e2527">WUNDA CHAIR</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">Contrology monogram</title>
+  <desc id="desc">A circular monogram inspired by controlled movement and breath.</desc>
+  <rect width="420" height="420" fill="#fffaf2"/>
+  <circle cx="210" cy="210" r="156" fill="none" stroke="#1e2527" stroke-width="14"/>
+  <circle cx="210" cy="210" r="108" fill="none" stroke="#c69a40" stroke-width="8"/>
+  <path d="M104 214c42-66 170-66 212 0" fill="none" stroke="#1f6f6d" stroke-width="16" stroke-linecap="round"/>
+  <path d="M122 260c56 44 120 44 176 0" fill="none" stroke="#a14f38" stroke-width="16" stroke-linecap="round"/>
+  <text x="210" y="205" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#1e2527">C</text>
+  <text x="210" y="260" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#1e2527">CONTROLOGY</text>
+</svg>

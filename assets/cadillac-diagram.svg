@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Cadillac diagram</title>
+  <desc id="desc">Stylized diagram of a Pilates Cadillac apparatus.</desc>
+  <rect width="720" height="420" fill="#fffaf2"/>
+  <rect x="128" y="242" width="464" height="72" rx="8" fill="#1f6f6d"/>
+  <path d="M128 314h464M128 242V82M592 242V82M128 82h464" stroke="#1e2527" stroke-width="12" stroke-linecap="round"/>
+  <path d="M250 82v84M360 82v112M470 82v84" stroke="#c69a40" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="250" cy="178" r="15" fill="#a14f38"/>
+  <circle cx="360" cy="206" r="15" fill="#a14f38"/>
+  <circle cx="470" cy="178" r="15" fill="#a14f38"/>
+  <path d="M236 250c46-52 82-52 124 0M360 250c48-54 86-54 128 0" fill="none" stroke="#a14f38" stroke-width="8" stroke-linecap="round"/>
+  <text x="360" y="360" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#1e2527">CADILLAC</text>
+</svg>
