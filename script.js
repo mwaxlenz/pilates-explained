@@ -127,29 +127,3 @@ equipmentButtons.forEach((button) => {
     equipmentImage.setAttribute("alt", item.alt);
   });
 });
-
-const newsletterForm = document.querySelector("#newsletter-form");
-const newsletterMessage = document.querySelector("#newsletter-message");
-
-if (newsletterForm && newsletterMessage) {
-  newsletterForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const formData = new FormData(newsletterForm);
-    const email = String(formData.get("email") || "").trim();
-
-    if (!email) {
-      newsletterMessage.textContent = "Enter an email address to receive the starter guide.";
-      return;
-    }
-
-    const stored = JSON.parse(localStorage.getItem("pilatesNewsletterEmails") || "[]");
-    if (!stored.includes(email)) {
-      stored.push(email);
-      localStorage.setItem("pilatesNewsletterEmails", JSON.stringify(stored));
-    }
-
-    newsletterMessage.textContent =
-      "Saved in this browser for the MVP. Connect Kit before public launch.";
-    newsletterForm.reset();
-  });
-}
