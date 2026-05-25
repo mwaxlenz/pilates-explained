@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://pilatesexplained.com/assets/brand/site-banner.svg">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="styles.css?v=equipment-hero">
+    <link rel="stylesheet" href="styles.css?v=brand-comparison">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -33,10 +33,11 @@
         <div class="nav-links" id="nav-menu">
           <a href="#story">Start here</a>
           <a href="#apparatus">Equipment</a>
-          <a href="articles/index.html">Articles</a>
+          <a href="#comparison">Compare</a>
+          <a href='/articles/'>Articles</a>
           <a href="#media">Watch</a>
           <a href="#sources">Sources</a>
-          <a href="about.html">About</a>
+          <a href='/about'>About</a>
         </div>
       </nav>
     </header>
@@ -51,9 +52,9 @@
             first mat, studio, online, or equipment class feels easier to choose.
           </p>
           <div class="hero-actions" aria-label="Featured actions">
-            <a class="button primary" href="#newsletter">Get the starter guide</a>
+            <a class="button monetization" href="#newsletter">Get the starter guide</a>
             <a class="button secondary" href="#apparatus">Get to know a Reformer</a>
-            <a class="button ghost" href="articles/index.html">Browse articles</a>
+            <a class='button ghost' href='/articles/'>Browse articles</a>
           </div>
         </div>
       </section>
@@ -168,6 +169,105 @@
         </div>
       </section>
 
+      <section class="section comparison-section" id="comparison" aria-labelledby="comparison-title">
+        <div class="section-heading">
+          <p class="eyebrow">Comparison guide</p>
+          <h2 id="comparison-title">Classical Pilates, Modern Pilates, and Lagree</h2>
+          <p>
+            These methods often appear in the same searches, but they do not come from the same
+            lineage or business model. Use this as an educational comparison, not a ranking.
+          </p>
+        </div>
+        <div class="comparison-tabs" role="tablist" aria-label="Pilates comparison table sections">
+          <button class="comparison-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="comparison-overview" id="tab-overview" data-comparison-tab="overview">Overview</button>
+          <button class="comparison-tab" type="button" role="tab" aria-selected="false" aria-controls="comparison-technique" id="tab-technique" data-comparison-tab="technique">Technique &amp; Class Feel</button>
+          <button class="comparison-tab" type="button" role="tab" aria-selected="false" aria-controls="comparison-business" id="tab-business" data-comparison-tab="business">Business &amp; Access</button>
+          <button class="comparison-tab" type="button" role="tab" aria-selected="false" aria-controls="comparison-evidence" id="tab-evidence" data-comparison-tab="evidence">Evidence &amp; Claims</button>
+        </div>
+
+        <div class="comparison-panel is-active" id="comparison-overview" role="tabpanel" aria-labelledby="tab-overview" data-comparison-panel="overview">
+          <div class="comparison-panel-heading">
+            <h3>Three Methods at a Glance</h3>
+            <p>What defines each approach and where it came from.</p>
+          </div>
+          <div class="table-scroll">
+            <table class="comparison-table">
+              <thead><tr><th scope="col"></th><th scope="col">Classical Pilates</th><th scope="col">Contemporary / Modern Pilates</th><th scope="col">Lagree</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">What it is</th><td>The original Contrology method developed by Joseph and Clara Pilates, preserved through direct teacher-to-teacher lineage.</td><td>A broad umbrella of Pilates schools that retain the core method while adapting it with modern biomechanics and rehabilitation science.</td><td>A separate, proprietary fitness system founded by Sebastien Lagree in 1998. Lagree itself states it is not Pilates.</td></tr>
+                <tr><th scope="row">Origin</th><td>New York studio, 1920s. Joseph Pilates taught Contrology to dancers, performers, and clients until his death in 1967.</td><td>Emerged after the 2000 federal ruling that "Pilates" is a generic term. Schools like STOTT, BASI, and Balanced Body formalized contemporary approaches.</td><td>Los Angeles, 1998. Sebastien Lagree began experimenting with bodybuilding techniques on reformers, then built proprietary machines.</td></tr>
+                <tr><th scope="row">Governance</th><td>Lineage-based. Authority flows through first-generation teachers, often called the Elders, and their schools.</td><td>Curriculum-driven. Large education ecosystems include STOTT, BASI, Balanced Body, and franchise systems like Club Pilates.</td><td>Private intellectual property. Proprietary equipment, trademarks, centralized certification, and studio licensing.</td></tr>
+                <tr><th scope="row">Key figures</th><td>Joseph and Clara Pilates; Romana Kryzanowska, Kathy Grant, Ron Fletcher, Eve Gentry, Lolita San Miguel, Jay Grimes, and other first-generation teachers.</td><td>Moira Merrithew, Rael Isacowitz, Balanced Body educators, and franchise leaders.</td><td>Sebastien Lagree as founder and method owner.</td></tr>
+                <tr><th scope="row">Equipment</th><td>Full studio system: Reformer, Cadillac, Wunda Chair, Barrels, and correctors.</td><td>Modernized reformers, towers, chairs, props, and hybrid accessories.</td><td>Megaformer family and related Lagree machines. The company says these are not reformers.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="comparison-panel" id="comparison-technique" role="tabpanel" aria-labelledby="tab-technique" data-comparison-panel="technique" hidden>
+          <div class="comparison-panel-heading">
+            <h3>How They Feel in Practice</h3>
+            <p>The differences you notice on the mat, reformer, or machine.</p>
+          </div>
+          <div class="table-scroll">
+            <table class="comparison-table">
+              <thead><tr><th scope="col">Dimension</th><th scope="col">Classical Pilates</th><th scope="col">Contemporary / Modern Pilates</th><th scope="col">Lagree</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Class goal</th><td>Integrated whole-body method: posture, control, coordination, and full-body conditioning through a coherent system.</td><td>Same inheritance, updated with neutral alignment, special-population modifications, and anatomy-driven cueing.</td><td>High-intensity muscular endurance under slow tempo and continuous tension, with minimal transition time.</td></tr>
+                <tr><th scope="row">Sequencing</th><td>Lineage-based and recognizably ordered, especially on mat and classical equipment.</td><td>May reorder or modify work around anatomy, injuries, class theme, or training goal.</td><td>Designed to minimize downtime and maximize time under tension. Transitions are a programming variable.</td></tr>
+                <tr><th scope="row">Tempo</th><td>Controlled and breath-led. Pace serves precision and flow.</td><td>Similar, but often adjusted to the client and exercise objective.</td><td>Formalized slow, controlled reps with an eight-count tempo. Momentum is explicitly discouraged.</td></tr>
+                <tr><th scope="row">Intensity</th><td>Low-to-moderate by default, though advanced classical work can be demanding.</td><td>Low-to-moderate but highly scalable, from rehab to athletic conditioning.</td><td>Explicitly marketed as high-intensity and low-impact.</td></tr>
+                <tr><th scope="row">Class format</th><td>Historically private or semi-private with strongly teacher-guided progression.</td><td>Private, clinical, semi-private, and large-group formats are all common.</td><td>Created for group training. Studio classes typically run 40 to 50 minutes.</td></tr>
+                <tr><th scope="row">What it feels like</th><td>A coherent full-body method. Sessions often feel like a disciplined, flowing practice.</td><td>More customizable and therapist-adjacent. Sessions adapt to the person in the room.</td><td>A proprietary strength-endurance circuit on a spring-based machine. Expect muscle fatigue and sweat.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="comparison-panel" id="comparison-business" role="tabpanel" aria-labelledby="tab-business" data-comparison-panel="business" hidden>
+          <div class="comparison-panel-heading">
+            <h3>Business Models &amp; Access</h3>
+            <p>How each method reaches practitioners and what it costs.</p>
+          </div>
+          <div class="table-scroll">
+            <table class="comparison-table">
+              <thead><tr><th scope="col">Factor</th><th scope="col">Classical Pilates</th><th scope="col">Contemporary / Modern Pilates</th><th scope="col">Lagree</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Studio model</th><td>Dominated by independent studios and premium private or semi-private instruction.</td><td>Spans independent educators and large franchise systems. Club Pilates reports 1,200+ studios globally.</td><td>Licensed studios, not a franchise. Equipment sales and trademark enforcement are central to the business model.</td></tr>
+                <tr><th scope="row">Typical setting</th><td>Smaller, often boutique studios with classical equipment. Exact national size benchmarks are unspecified.</td><td>Club Pilates reports a typical studio of about 1,500 sq ft serving up to 12 people at once.</td><td>Space depends on machine count. A Mega Pro recommends 100 sq ft per unit.</td></tr>
+                <tr><th scope="row">Equipment cost</th><td>A small classical package with Reformers, Cadillac, and Chairs can run into the tens of thousands before buildout.</td><td>Club Pilates FDD reports six-figure equipment and initial fit-out costs.</td><td>Machine spend depends on the studio path. Megaformer rooms are materially different from low-cost micro-studio setups.</td></tr>
+                <tr><th scope="row">Pricing model</th><td>Privates, duets, small groups, and workshops. No standardized national membership norms.</td><td>Membership tiers, private sessions, walk-ins, and class packs are common.</td><td>Decentralized local pricing. Corporate monetizes through license tiers, equipment, and training.</td></tr>
+                <tr><th scope="row">Instructor path</th><td>Lineage-led and decentralized. Authority flows through teachers rather than a central regulator.</td><td>Curricular and modular, often with 500+ hour comprehensive programs.</td><td>Centralized Lagree certification with defined levels and course fees.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="comparison-panel" id="comparison-evidence" role="tabpanel" aria-labelledby="tab-evidence" data-comparison-panel="evidence" hidden>
+          <div class="comparison-panel-heading">
+            <h3>Evidence &amp; Research</h3>
+            <p>What the science supports, and where the gaps are.</p>
+          </div>
+          <div class="table-scroll">
+            <table class="comparison-table evidence-table">
+              <thead><tr><th scope="col">Question</th><th scope="col">Classical &amp; Contemporary Pilates</th><th scope="col">Lagree</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Physical capacity benefits?</th><td>Often yes, especially flexibility, dynamic balance, and muscular endurance. Evidence quality varies across studies.</td><td>Current public evidence base appears very small and should be treated as exploratory.</td></tr>
+                <tr><th scope="row">Pain and rehab benefits?</th><td>Often useful as an adjunct, especially for low back pain and some musculoskeletal conditions. It is not consistently superior to other exercise.</td><td>No specific rehabilitation evidence is currently established in the public literature.</td></tr>
+                <tr><th scope="row">Safety profile?</th><td>Probably low risk when competently taught, though systematic adverse-event reporting remains weak across studies.</td><td>No direct comparative injury-rate literature available. Intensity and continuous fatigue imply the need for strong coaching.</td></tr>
+                <tr><th scope="row">Marketing vs. evidence</th><td>Benefits are real but should not be oversold. Systematic reviews support some outcomes more strongly than others.</td><td>Marketing claims currently outrun the independent evidence base. Treat broad claims with caution unless sources are supplied.</td></tr>
+                <tr><th scope="row">Are they interchangeable?</th><td>Classical and Contemporary Pilates share a common lineage and historical foundation, though they differ in emphasis and approach.</td><td>No. Lagree is historically, legally, pedagogically, and commercially different from Pilates.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="comparison-footer">
+          <span>Pilates Explained</span>
+          <p>Lagree is a separate proprietary system, not a Pilates lineage. This comparison is educational, not an endorsement of any method.</p>
+        </div>
+      </section>
+
       <section class="section timeline-section" id="timeline" aria-labelledby="timeline-title">
         <div class="section-heading">
           <p class="eyebrow">Timeline</p>
@@ -215,18 +315,18 @@
           <h2 id="articles-title">Start with the stories behind the method</h2>
         </div>
         <div class="article-card-grid compact">
-          <a class="article-card" href="articles/what-is-contrology.html"><img src="assets/graphics/dossier-pillars.png" alt="Contrology pillars graphic"><span>01</span><h3>What Is Contrology?</h3><p>The original name and philosophy behind Pilates.</p></a>
-          <a class="article-card" href="articles/who-was-joseph-pilates.html"><img src="assets/graphics/dossier-origin.png" alt="Pilates origin graphic"><span>02</span><h3>Who Was Joseph Pilates?</h3><p>Founder biography beyond the generic summary.</p></a>
-          <a class="article-card" href="articles/pilates-prison-camp-origins.html"><img src="assets/graphics/dossier-bednasium.png" alt="Bednasium graphic"><span>03</span><h3>Prison Camp Origins</h3><p>Why constraint became the origin hook.</p></a>
-          <a class="article-card" href="articles/history-of-the-reformer.html"><img src="assets/graphics/blueprint-reformer.png" alt="Reformer blueprint"><span>04</span><h3>History of the Reformer</h3><p>The machine that made spring resistance iconic.</p></a>
-          <a class="article-card" href="articles/history-of-the-cadillac.html"><img src="assets/graphics/blueprint-cadillac.png" alt="Cadillac blueprint"><span>05</span><h3>History of the Cadillac</h3><p>Hospital-bed logic becomes a studio ecosystem.</p></a>
-          <a class="article-card" href="articles/history-of-the-wunda-chair.html"><img src="assets/graphics/blueprint-chair.png" alt="Wunda Chair blueprint"><span>06</span><h3>History of the Wunda Chair</h3><p>Small footprint, serious control.</p></a>
-          <a class="article-card" href="articles/clara-pilates-untold-partner.html"><img src="assets/graphics/dossier-elders.png" alt="Pilates lineage graphic"><span>11</span><h3>Clara Pilates</h3><p>The untold partner who made Contrology teachable.</p></a>
-          <a class="article-card" href="articles/your-health-1934-joseph-pilates-first-book.html"><img src="assets/graphics/blueprint-legacy.png" alt="Pilates archival legacy graphic"><span>12</span><h3>Your Health (1934)</h3><p>The first book and Joseph Pilates' early health philosophy.</p></a>
-          <a class="article-card" href="articles/pilates-vs-yoga-history-of-two-parallel-methods.html"><img src="assets/graphics/dossier-pillars.png" alt="Contrology principles graphic"><span>13</span><h3>Pilates vs Yoga</h3><p>Two parallel methods with different histories and aims.</p></a>
+          <a class='article-card' href='/articles/what-is-contrology'><img src="assets/graphics/dossier-pillars.png" alt="Contrology pillars graphic"><span>01</span><h3>What Is Contrology?</h3><p>The original name and philosophy behind Pilates.</p></a>
+          <a class='article-card' href='/articles/who-was-joseph-pilates'><img src="assets/graphics/dossier-origin.png" alt="Pilates origin graphic"><span>02</span><h3>Who Was Joseph Pilates?</h3><p>Founder biography beyond the generic summary.</p></a>
+          <a class='article-card' href='/articles/pilates-prison-camp-origins'><img src="assets/graphics/dossier-bednasium.png" alt="Bednasium graphic"><span>03</span><h3>Prison Camp Origins</h3><p>Why constraint became the origin hook.</p></a>
+          <a class='article-card' href='/articles/history-of-the-reformer'><img src="assets/graphics/blueprint-reformer.png" alt="Reformer blueprint"><span>04</span><h3>History of the Reformer</h3><p>The machine that made spring resistance iconic.</p></a>
+          <a class='article-card' href='/articles/history-of-the-cadillac'><img src="assets/graphics/blueprint-cadillac.png" alt="Cadillac blueprint"><span>05</span><h3>History of the Cadillac</h3><p>Hospital-bed logic becomes a studio ecosystem.</p></a>
+          <a class='article-card' href='/articles/history-of-the-wunda-chair'><img src="assets/graphics/blueprint-chair.png" alt="Wunda Chair blueprint"><span>06</span><h3>History of the Wunda Chair</h3><p>Small footprint, serious control.</p></a>
+          <a class='article-card' href='/articles/clara-pilates-untold-partner'><img src="assets/graphics/dossier-elders.png" alt="Pilates lineage graphic"><span>11</span><h3>Clara Pilates</h3><p>The untold partner who made Contrology teachable.</p></a>
+          <a class='article-card' href='/articles/your-health-1934-joseph-pilates-first-book'><img src="assets/graphics/blueprint-legacy.png" alt="Pilates archival legacy graphic"><span>12</span><h3>Your Health (1934)</h3><p>The first book and Joseph Pilates' early health philosophy.</p></a>
+          <a class='article-card' href='/articles/pilates-vs-yoga-history-of-two-parallel-methods'><img src="assets/graphics/dossier-pillars.png" alt="Contrology principles graphic"><span>13</span><h3>Pilates vs Yoga</h3><p>Two parallel methods with different histories and aims.</p></a>
         </div>
         <div class="center-action">
-          <a class="button secondary" href="articles/index.html">View all 13 articles</a>
+          <a class='button secondary' href='/articles/'>View all 13 articles</a>
         </div>
       </section>
 
@@ -247,12 +347,16 @@
 
       <section class="section cta-section" aria-labelledby="cta-title">
         <div>
-          <p class="eyebrow">Try the method</p>
+          <p class="eyebrow">Studio discovery</p>
           <h2 id="cta-title">Move from curiosity to a sensible first class</h2>
+          <p>
+            Ready to try the method? Here are two neutral ways to find classes near you.
+            Pilates Explained does not endorse, verify, or certify any studio or instructor.
+          </p>
         </div>
         <div class="cta-actions">
-          <a class="button primary" href="https://www.google.com/maps/search/Pilates+studio+near+me" rel="noopener">Find local studios</a>
-          <a class="button secondary" href="https://classpass.com/search/pilates" rel="noopener">Browse Pilates classes</a>
+          <a class="button primary" href="https://www.google.com/maps/search/Pilates+studio+near+me" target="_blank" rel="noopener">Find local studios</a>
+          <a class="button secondary" href="https://classpass.com/search/pilates" target="_blank" rel="noopener">Browse Pilates classes</a>
         </div>
       </section>
 
@@ -276,7 +380,7 @@
 
     <footer class="site-footer">
       <p>&copy; <span id="year"></span> Pilates Explained.</p>
-      <a href="privacy.html">Privacy</a>
+      <a href='/privacy'>Privacy</a>
     </footer>
 
     <script src="script.js"></script>
