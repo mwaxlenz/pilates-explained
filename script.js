@@ -127,3 +127,24 @@ equipmentButtons.forEach((button) => {
     equipmentImage.setAttribute("alt", item.alt);
   });
 });
+
+const comparisonTabs = document.querySelectorAll("[data-comparison-tab]");
+const comparisonPanels = document.querySelectorAll("[data-comparison-panel]");
+
+comparisonTabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    const target = tab.getAttribute("data-comparison-tab");
+
+    comparisonTabs.forEach((candidate) => {
+      const isActive = candidate === tab;
+      candidate.classList.toggle("is-active", isActive);
+      candidate.setAttribute("aria-selected", String(isActive));
+    });
+
+    comparisonPanels.forEach((panel) => {
+      const isActive = panel.getAttribute("data-comparison-panel") === target;
+      panel.classList.toggle("is-active", isActive);
+      panel.toggleAttribute("hidden", !isActive);
+    });
+  });
+});

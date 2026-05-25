@@ -2,11 +2,11 @@
 
 Static launch build for `pilatesexplained.com`.
 
-The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build pipeline. It includes a homepage, About page, Privacy page, article hub, 13 launch articles, brand SVGs, sitemap, robots file, video/audio assets, and a Kit-powered starter-guide email form.
+The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build pipeline. It includes a homepage, About page, Privacy page, article hub, 13 launch articles, brand SVGs, sitemap, robots file, video/audio assets, a Classical / Modern / Lagree comparison section, and Kit-powered starter-guide email forms.
 
 ## Files
 
-- `index.html` - homepage with story, timeline, equipment, media, starter-guide CTA, Kit form, and sources.
+- `index.html` - homepage with story, media, visual dossier, equipment, comparison table, timeline, articles, source library, studio discovery, and Kit form.
 - `about.html` - project rationale and editorial positioning.
 - `articles/` - article hub plus 13 launch article pages.
 - `assets/brand/` - Pilates Explained logo, mark, and banner.
@@ -48,3 +48,11 @@ If the repository contains several project folders and this is a subfolder:
 6. Update `privacy.html` after adding analytics or affiliate links.
 7. Add affiliate disclosure language before using monetized ClassPass links.
 8. Replace the Kit embed if a redesigned form or landing flow is created.
+
+## Current brand implementation
+
+- Preserve the live hero and article-first layout as the visual source of truth.
+- Use the `--pe-*` CSS variables from the brand guideline for new components.
+- Treat purple as the monetization / lead-generation accent and teal as the editorial / service accent.
+- Keep studio discovery neutral: link to search or directory tools, not named studios.
+- Use the comparison table as an educational aid. Do not rank methods or conflate Lagree with Pilates lineage.
