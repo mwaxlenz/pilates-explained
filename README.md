@@ -2,7 +2,7 @@
 
 Static launch build for `pilatesexplained.com`.
 
-The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build pipeline. It includes a homepage, About page, Privacy page, article hub, 16 articles, brand SVGs, sitemap, robots file, video/audio assets, a Classical / Modern / Lagree comparison section, and Kit-powered starter-guide email forms.
+The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build pipeline. It includes a homepage, About page, Privacy page, article hub, 16 articles, brand SVGs, sitemap, robots file, video/audio assets, a Classical / Modern / Lagree comparison section, Kit-powered starter-guide email forms, and a branded PDF starter decision guide download.
 
 ## Files
 
@@ -10,6 +10,8 @@ The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build 
 - `about.html` - project rationale and editorial positioning.
 - `articles/` - article hub plus 16 article pages, including the three-part Classical / Modern / Lagree comparison series.
 - `assets/brand/` - Pilates Explained logo, mark, and banner.
+- `assets/downloads/pilates-starter-decision-guide.pdf` - current branded PDF decision guide.
+- `scripts/generate_decision_guide_pdf.py` - reproducible source for regenerating the PDF guide.
 - `privacy.html` - simple pre-launch privacy policy.
 - `404.html`, `robots.txt`, `sitemap.xml` - launch support files.
 - `netlify.toml` - static hosting configuration for Netlify.
@@ -24,6 +26,14 @@ python3 -m http.server 8000
 ```
 
 Then visit `http://localhost:8000`.
+
+## Regenerate the PDF guide
+
+```bash
+python3 scripts/generate_decision_guide_pdf.py
+```
+
+The script writes the live download to `assets/downloads/pilates-starter-decision-guide.pdf` and a review copy to `output/pdf/pilates-starter-decision-guide.pdf`.
 
 ## Netlify settings
 
