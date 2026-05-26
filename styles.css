@@ -620,6 +620,16 @@ h3 {
   margin-bottom: 0.8rem;
 }
 
+.source-credit {
+  font-weight: 800;
+}
+
+.source-credit a {
+  color: var(--purple);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .audio-card {
   grid-column: 1 / -1;
 }
@@ -1016,6 +1026,57 @@ input[type="email"] {
   margin-top: 2rem;
   font-family: inherit;
   font-size: 1.35rem;
+}
+
+.article-body h3 {
+  margin-top: 1.45rem;
+  font-family: inherit;
+  font-size: 1.08rem;
+}
+
+.article-body a {
+  color: var(--teal-dark);
+  font-weight: 800;
+}
+
+.article-body ul {
+  padding-left: 1.25rem;
+}
+
+.article-body li {
+  margin-bottom: 0.65rem;
+  color: var(--pe-dark);
+  font-size: 1.02rem;
+}
+
+.article-inline-figure {
+  margin: 1.5rem 0;
+}
+
+.article-inline-figure img {
+  width: 100%;
+  border: 1px solid rgba(30, 37, 39, 0.14);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.article-inline-figure figcaption {
+  margin-top: 0.45rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.article-note-card {
+  margin-top: 2rem;
+  padding: 1.2rem;
+  border: 1px solid rgba(26, 122, 109, 0.24);
+  border-radius: var(--radius);
+  background: var(--teal-soft);
+}
+
+.article-note-card h2 {
+  margin-top: 0;
 }
 
 .article-sources {

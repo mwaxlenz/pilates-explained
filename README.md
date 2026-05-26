@@ -2,13 +2,13 @@
 
 Static launch build for `pilatesexplained.com`.
 
-The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build pipeline. It includes a homepage, About page, Privacy page, article hub, 13 launch articles, brand SVGs, sitemap, robots file, video/audio assets, a Classical / Modern / Lagree comparison section, and Kit-powered starter-guide email forms.
+The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build pipeline. It includes a homepage, About page, Privacy page, article hub, 16 articles, brand SVGs, sitemap, robots file, video/audio assets, a Classical / Modern / Lagree comparison section, and Kit-powered starter-guide email forms.
 
 ## Files
 
 - `index.html` - homepage with story, media, visual dossier, equipment, comparison table, timeline, articles, source library, studio discovery, and Kit form.
 - `about.html` - project rationale and editorial positioning.
-- `articles/` - article hub plus 13 launch article pages.
+- `articles/` - article hub plus 16 article pages, including the three-part Classical / Modern / Lagree comparison series.
 - `assets/brand/` - Pilates Explained logo, mark, and banner.
 - `privacy.html` - simple pre-launch privacy policy.
 - `404.html`, `robots.txt`, `sitemap.xml` - launch support files.

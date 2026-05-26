@@ -1,0 +1,101 @@
+<svg width="680" height="540" viewBox="0 0 680 540" xmlns="http://www.w3.org/2000/svg">
+<defs><pattern id="grid2" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="#D4C9BE" stroke-width="0.3" opacity="0.4"/></pattern></defs>
+<rect width="680" height="540" fill="#FAF5F0" rx="8"/><rect width="680" height="540" fill="url(#grid2)" rx="8"/>
+<rect x="24" y="16" width="420" height="44" rx="4" fill="#2C2C2C" opacity="0.92"/>
+<text x="36" y="34" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#FAF5F0" letter-spacing="0.03em">TWO MACHINES, TWO METHODS</text>
+<text x="36" y="50" font-family="Inter, sans-serif" font-size="10" fill="#D4C9BE">Pilates Reformer vs. Lagree Megaformer — A Design Comparison</text>
+<text x="656" y="32" font-family="Georgia, serif" font-size="9" fill="#1A7A6D" text-anchor="end" opacity="0.7">pilatesexplained.com</text>
+<rect x="24" y="72" width="308" height="310" rx="6" fill="#FAF5F0" stroke="#1A7A6D" stroke-width="1"/>
+<rect x="24" y="72" width="308" height="32" rx="6" fill="#1A7A6D"/><rect x="24" y="90" width="308" height="14" fill="#1A7A6D"/>
+<text x="178" y="94" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#FAF5F0" text-anchor="middle">PILATES REFORMER</text>
+<rect x="60" y="170" width="240" height="6" rx="2" fill="none" stroke="#2C2C2C" stroke-width="0.8"/>
+<rect x="60" y="210" width="240" height="6" rx="2" fill="none" stroke="#2C2C2C" stroke-width="0.8"/>
+<rect x="90" y="158" width="130" height="12" rx="3" fill="#F5EDD6" stroke="#8B6914" stroke-width="0.7"/>
+<rect x="90" y="176" width="130" height="34" rx="2" fill="#F5EDD6" stroke="#8B6914" stroke-width="0.5" opacity="0.5"/>
+<circle cx="105" cy="176" r="3" fill="#FAF5F0" stroke="#2C2C2C" stroke-width="0.6"/>
+<circle cx="205" cy="176" r="3" fill="#FAF5F0" stroke="#2C2C2C" stroke-width="0.6"/>
+<rect x="88" y="148" width="30" height="10" rx="4" fill="#E8F4F2" stroke="#1A7A6D" stroke-width="0.6"/>
+<rect x="125" y="150" width="8" height="10" rx="1.5" fill="#1A7A6D" opacity="0.6"/>
+<rect x="148" y="150" width="8" height="10" rx="1.5" fill="#1A7A6D" opacity="0.6"/>
+<path d="M220 182 Q228 179 232 182 Q236 185 240 182 Q244 179 248 182 Q252 185 256 182 Q260 179 264 182 L272 182" fill="none" stroke="#C45B4D" stroke-width="0.8"/>
+<path d="M220 188 Q228 185 232 188 Q236 191 240 188 Q244 185 248 188 Q252 191 256 188 Q260 185 264 188 L272 188" fill="none" stroke="#C45B4D" stroke-width="0.8"/>
+<path d="M220 194 Q228 191 232 194 Q236 197 240 194 Q244 191 248 194 Q252 197 256 194 Q260 191 264 194 L272 194" fill="none" stroke="#1A7A6D" stroke-width="0.8"/>
+<path d="M220 200 Q228 197 232 200 Q236 203 240 200 Q244 197 248 200 Q252 203 256 200 Q260 197 264 200 L272 200" fill="none" stroke="#1A7A6D" stroke-width="0.8"/>
+<rect x="270" y="178" width="8" height="28" rx="2" fill="#D4C9BE" stroke="#2C2C2C" stroke-width="0.5"/>
+<rect x="284" y="150" width="4" height="60" rx="2" fill="#2C2C2C"/>
+<rect x="278" y="148" width="16" height="4" rx="2" fill="#6B6155"/>
+<line x1="66" y1="170" x2="66" y2="142" stroke="#8B6914" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+<line x1="80" y1="170" x2="80" y2="142" stroke="#8B6914" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+<circle cx="66" cy="140" r="2.5" fill="#FAF5F0" stroke="#8B6914" stroke-width="0.5"/>
+<circle cx="80" cy="140" r="2.5" fill="#FAF5F0" stroke="#8B6914" stroke-width="0.5"/>
+<line x1="75" y1="216" x2="75" y2="235" stroke="#2C2C2C" stroke-width="1" stroke-linecap="round"/>
+<line x1="95" y1="216" x2="95" y2="235" stroke="#2C2C2C" stroke-width="1" stroke-linecap="round"/>
+<line x1="265" y1="216" x2="265" y2="235" stroke="#2C2C2C" stroke-width="1" stroke-linecap="round"/>
+<line x1="285" y1="216" x2="285" y2="235" stroke="#2C2C2C" stroke-width="1" stroke-linecap="round"/>
+<line x1="50" y1="235" x2="305" y2="235" stroke="#D4C9BE" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="44" y="262" font-family="Inter, sans-serif" font-size="9.5" font-weight="500" fill="#1A7A6D">Key characteristics</text>
+<text x="44" y="278" font-family="Inter, sans-serif" font-size="9" fill="#6B6155">Spring type: 4–5 springs, variable tension</text>
+<text x="44" y="292" font-family="Inter, sans-serif" font-size="9" fill="#6B6155">Weight: ~120–150 lbs</text>
+<text x="44" y="306" font-family="Inter, sans-serif" font-size="9" fill="#6B6155">Includes ropes, straps, and pulleys</text>
+<text x="44" y="320" font-family="Inter, sans-serif" font-size="9" fill="#6B6155">Price: $4,800–$5,150 (classical)</text>
+<text x="44" y="340" font-family="Inter, sans-serif" font-size="9" fill="#8B6914" font-weight="500">Heritage design preserving original dimensions</text>
+<rect x="44" y="354" width="6" height="6" rx="1" fill="#1A7A6D"/><text x="56" y="360" font-family="Inter, sans-serif" font-size="9" fill="#2C2C2C">Part of the Contrology apparatus family</text>
+<rect x="44" y="368" width="6" height="6" rx="1" fill="#1A7A6D"/><text x="56" y="374" font-family="Inter, sans-serif" font-size="9" fill="#2C2C2C">Generic category — multiple manufacturers</text>
+<rect x="348" y="72" width="308" height="310" rx="6" fill="#FAF5F0" stroke="#C45B4D" stroke-width="1"/>
+<rect x="348" y="72" width="308" height="32" rx="6" fill="#C45B4D"/><rect x="348" y="90" width="308" height="14" fill="#C45B4D"/>
+<text x="502" y="94" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#FAF5F0" text-anchor="middle">LAGREE MEGAFORMER</text>
+<rect x="370" y="162" width="268" height="8" rx="2" fill="#2C2C2C"/>
+<rect x="370" y="210" width="268" height="8" rx="2" fill="#2C2C2C"/>
+<rect x="370" y="145" width="60" height="18" rx="3" fill="#FBEAE8" stroke="#C45B4D" stroke-width="0.7"/>
+<rect x="440" y="143" width="110" height="20" rx="3" fill="#FBEAE8" stroke="#C45B4D" stroke-width="0.8"/>
+<rect x="560" y="145" width="66" height="18" rx="3" fill="#FBEAE8" stroke="#C45B4D" stroke-width="0.7"/>
+<rect x="440" y="170" width="110" height="40" rx="2" fill="#FBEAE8" stroke="#C45B4D" stroke-width="0.4" opacity="0.4"/>
+<circle cx="455" cy="170" r="4" fill="#FAF5F0" stroke="#2C2C2C" stroke-width="0.8"/>
+<circle cx="535" cy="170" r="4" fill="#FAF5F0" stroke="#2C2C2C" stroke-width="0.8"/>
+<circle cx="455" cy="210" r="4" fill="#FAF5F0" stroke="#2C2C2C" stroke-width="0.8"/>
+<circle cx="535" cy="210" r="4" fill="#FAF5F0" stroke="#2C2C2C" stroke-width="0.8"/>
+<rect x="368" y="132" width="4" height="34" rx="2" fill="#2C2C2C"/>
+<rect x="395" y="132" width="4" height="34" rx="2" fill="#2C2C2C"/>
+<rect x="364" y="130" width="40" height="4" rx="2" fill="#6B6155"/>
+<rect x="596" y="132" width="4" height="34" rx="2" fill="#2C2C2C"/>
+<rect x="622" y="132" width="4" height="34" rx="2" fill="#2C2C2C"/>
+<rect x="592" y="130" width="38" height="4" rx="2" fill="#6B6155"/>
+<path d="M550 182 Q554 179 558 182 Q562 185 566 182 Q570 179 574 182 Q578 185 582 182 L586 182" fill="none" stroke="#C45B4D" stroke-width="0.9"/>
+<path d="M550 188 Q554 185 558 188 Q562 191 566 188 Q570 185 574 188 Q578 191 582 188 L586 188" fill="none" stroke="#C45B4D" stroke-width="0.9"/>
+<path d="M550 194 Q554 191 558 194 Q562 197 566 194 Q570 191 574 194 Q578 197 582 194 L586 194" fill="none" stroke="#C45B4D" stroke-width="0.9"/>
+<path d="M550 200 Q554 197 558 200 Q562 203 566 200 Q570 197 574 200 Q578 203 582 200 L586 200" fill="none" stroke="#C45B4D" stroke-width="0.9"/>
+<rect x="380" y="218" width="8" height="20" rx="2" fill="#2C2C2C"/>
+<rect x="405" y="218" width="8" height="20" rx="2" fill="#2C2C2C"/>
+<rect x="596" y="218" width="8" height="20" rx="2" fill="#2C2C2C"/>
+<rect x="621" y="218" width="8" height="20" rx="2" fill="#2C2C2C"/>
+<line x1="360" y1="238" x2="645" y2="238" stroke="#D4C9BE" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="400" y="126" font-family="Inter, sans-serif" font-size="8" fill="#C45B4D" text-anchor="middle">Front</text>
+<text x="400" y="134" font-family="Inter, sans-serif" font-size="7" fill="#6B6155" text-anchor="middle">platform</text>
+<text x="495" y="126" font-family="Inter, sans-serif" font-size="8" fill="#C45B4D" text-anchor="middle">Sliding carriage</text>
+<text x="593" y="126" font-family="Inter, sans-serif" font-size="8" fill="#C45B4D" text-anchor="middle">Rear</text>
+<text x="593" y="134" font-family="Inter, sans-serif" font-size="7" fill="#6B6155" text-anchor="middle">platform</text>
+<text x="368" y="262" font-family="Inter, sans-serif" font-size="9.5" font-weight="500" fill="#C45B4D">Key characteristics</text>
+<text x="368" y="278" font-family="Inter, sans-serif" font-size="9" fill="#6B6155">Spring type: Multiple, heavier-gauge springs</text>
+<text x="368" y="292" font-family="Inter, sans-serif" font-size="9" fill="#6B6155">Weight: ~395 lbs (Mega Pro)</text>
+<text x="368" y="306" font-family="Inter, sans-serif" font-size="9" fill="#6B6155">Front and rear platforms + sliding carriage</text>
+<text x="368" y="320" font-family="Inter, sans-serif" font-size="9" fill="#6B6155">Price: $8,900 (licensee) / $10,900 (non-licensee)</text>
+<text x="368" y="340" font-family="Inter, sans-serif" font-size="9" fill="#C45B4D" font-weight="500">Designed for slow-tempo muscular endurance</text>
+<rect x="368" y="354" width="6" height="6" rx="1" fill="#C45B4D"/><text x="380" y="360" font-family="Inter, sans-serif" font-size="9" fill="#2C2C2C">Lagree states this is not a reformer</text>
+<rect x="368" y="368" width="6" height="6" rx="1" fill="#C45B4D"/><text x="380" y="374" font-family="Inter, sans-serif" font-size="9" fill="#2C2C2C">Proprietary — sole manufacturer</text>
+<circle cx="340" cy="227" r="16" fill="#2C2C2C"/>
+<text x="340" y="231" font-family="Georgia, serif" font-size="11" fill="#FAF5F0" text-anchor="middle" font-weight="700">vs</text>
+<rect x="24" y="398" width="632" height="125" rx="6" fill="#F0E8DD" stroke="#D4C9BE" stroke-width="0.5"/>
+<text x="340" y="420" font-family="Georgia, serif" font-size="11" fill="#2C2C2C" font-weight="700" text-anchor="middle">Key design differences</text>
+<rect x="44" y="434" width="188" height="70" rx="4" fill="#FAF5F0" stroke="#D4C9BE" stroke-width="0.5"/>
+<text x="138" y="452" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#1A7A6D" text-anchor="middle">Purpose</text>
+<text x="138" y="466" font-family="Inter, sans-serif" font-size="8.5" fill="#6B6155" text-anchor="middle">Reformer: full-body method</text>
+<text x="138" y="479" font-family="Inter, sans-serif" font-size="8.5" fill="#6B6155" text-anchor="middle">Megaformer: endurance circuit</text>
+<rect x="246" y="434" width="188" height="70" rx="4" fill="#FAF5F0" stroke="#D4C9BE" stroke-width="0.5"/>
+<text x="340" y="452" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#1A7A6D" text-anchor="middle">Ownership</text>
+<text x="340" y="466" font-family="Inter, sans-serif" font-size="8.5" fill="#6B6155" text-anchor="middle">Reformer: open market, many makers</text>
+<text x="340" y="479" font-family="Inter, sans-serif" font-size="8.5" fill="#6B6155" text-anchor="middle">Megaformer: proprietary, one source</text>
+<rect x="448" y="434" width="188" height="70" rx="4" fill="#FAF5F0" stroke="#D4C9BE" stroke-width="0.5"/>
+<text x="542" y="452" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#1A7A6D" text-anchor="middle">Scale</text>
+<text x="542" y="466" font-family="Inter, sans-serif" font-size="8.5" fill="#6B6155" text-anchor="middle">Reformer: ~120–150 lbs</text>
+<text x="542" y="479" font-family="Inter, sans-serif" font-size="8.5" fill="#6B6155" text-anchor="middle">Megaformer: ~395 lbs</text>
+</svg>
