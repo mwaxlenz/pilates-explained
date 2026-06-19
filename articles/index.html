@@ -8,12 +8,13 @@
       name="description"
       content="Pilates Explained articles on Contrology, Joseph Pilates, equipment history, dancers, lineage, yoga comparisons, and beginner decisions."
     >
-    <link rel="canonical" href="https://pilatesexplained.com/articles/index.html">
+    <link rel="canonical" href="https://pilatesexplained.com/articles/">
     <meta property="og:title" content="Articles | Pilates Explained">
     <meta property="og:description" content="Pilates Explained articles on Contrology, Joseph Pilates, equipment history, dancers, lineage, yoga comparisons, and beginner decisions.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://pilatesexplained.com/assets/brand/site-banner.svg">
     <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="/assets/brand/logo-mark.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../styles.css">
   </head>
   <body>
@@ -21,7 +22,7 @@
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
         <a class="brand" href="../index.html">
-          <span class="brand-mark" aria-hidden="true">PE</span><span>Pilates Explained</span>
+          <span class="brand-mark" aria-hidden="true"></span><span>Pilates Explained</span>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
           <span class="sr-only">Open navigation</span>
@@ -31,10 +32,12 @@
         </button>
         <div class="nav-links" id="nav-menu">
           <a href="../index.html#story">Story</a>
+          <a href="../articles/index.html">Articles</a>
+          <a href="../guides/">Guides</a>
+          <a href="../glossary/">Glossary</a>
+          <a href="../quiz/">Quiz</a>
           <a href="../index.html#comparison">Compare</a>
-          <a href="../index.html#timeline">Timeline</a>
-          <a href="../index.html#media">Media</a>
-          <a href="../index.html#sources">Sources</a><a href="../about.html">About</a>
+          <a href="../about.html">About</a>
         </div>
       </nav>
     </header>
@@ -167,13 +170,26 @@
           </a>
         </div>
       </section>
+      <section class="section article-cta-card" data-pe-marker="PE_PRODUCT_INDEX_CALLOUT" aria-labelledby="teachers-guide-index-title">
+        <p class="eyebrow">For teachers</p>
+        <h2 id="teachers-guide-index-title">Need the history in one sourcebook?</h2>
+        <p>The Pilates History for Teachers sourcebook is being prepared as a deeper, source-cited reference for instructors.</p>
+        <a class="button secondary" href="../teachers-guide/">Join the sourcebook waitlist</a>
+      </section>
     </main>
 
     <footer class="site-footer">
       <p>&copy; <span id="year"></span> Pilates Explained.</p>
-      <a href="../privacy.html">Privacy</a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="../privacy.html">Privacy</a>
+        <a href="../affiliate-disclosure/">Affiliate disclosure</a>
+        <a href="../partners/">Partner with us</a>
+        <a href="../teachers-guide/">For Teachers</a>
+      </nav>
     </footer>
 
-    <script src="../script.js"></script>
+    <script src="../assets/js/affiliates.js" defer></script>
+    <script src="../assets/js/analytics.js" defer></script>
+    <script src="../script.js" defer></script>
   </body>
 </html>

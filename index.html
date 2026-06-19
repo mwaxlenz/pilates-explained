@@ -14,6 +14,29 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://pilatesexplained.com/assets/brand/site-banner.svg">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name='impact-site-verification' value='5a4cb781-c728-47be-9f74-e2d972a3e269'>
+
+
+    <!-- PE_SCHEMA_START -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Pilates Explained",
+  "url": "https://pilatesexplained.com",
+  "logo": "https://pilatesexplained.com/assets/brand/logo-mark.svg"
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Pilates Explained",
+  "url": "https://pilatesexplained.com"
+}
+    </script>
+    <!-- PE_SCHEMA_END -->
+    <link rel="icon" href="/assets/brand/logo-mark.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css?v=brand-comparison">
   </head>
   <body>
@@ -22,7 +45,7 @@
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
         <a class="brand" href="#top" aria-label="Pilates Explained home">
-          <span class="brand-mark" aria-hidden="true">PE</span><span>Pilates Explained</span>
+          <span class="brand-mark" aria-hidden="true"></span><span>Pilates Explained</span>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
           <span class="sr-only">Open navigation</span>
@@ -31,12 +54,12 @@
           <span aria-hidden="true"></span>
         </button>
         <div class="nav-links" id="nav-menu">
-          <a href="#story">Start here</a>
-          <a href="#apparatus">Equipment</a>
-          <a href="#comparison">Compare</a>
+          <a href="index.html#story">Story</a>
           <a href="articles/index.html">Articles</a>
-          <a href="#media">Watch</a>
-          <a href="#sources">Sources</a>
+          <a href="guides/">Guides</a>
+          <a href="glossary/">Glossary</a>
+          <a href="quiz/">Quiz</a>
+          <a href="index.html#comparison">Compare</a>
           <a href="about.html">About</a>
         </div>
       </nav>
@@ -264,6 +287,14 @@
           <p>Lagree is a separate proprietary system, not a Pilates lineage. This comparison is educational, not an endorsement of any method.</p>
         </div>
       </section>
+      <section class="section quiz-callout" data-pe-marker="PE_QUIZ_CALLOUT" aria-labelledby="quiz-callout-title">
+        <div>
+          <p class="eyebrow">Choose your path</p>
+          <h2 id="quiz-callout-title">Not sure where to start?</h2>
+          <p>Take the five-question quiz to compare classical Pilates, contemporary Pilates, Lagree, and online or mat practice.</p>
+        </div>
+        <a class="button primary" href="quiz/">Take the quiz</a>
+      </section>
 
       <section class="section timeline-section" id="timeline" aria-labelledby="timeline-title">
         <div class="section-heading">
@@ -355,8 +386,21 @@
           </p>
         </div>
         <div class="cta-actions">
-          <a class="button primary" href="https://www.google.com/maps/search/Pilates+studio+near+me" target="_blank" rel="noopener">Find local studios</a>
+          <a class="button primary" href="#affiliate-link-pending" data-aff="classpass" data-affiliate-link target="_blank" rel="sponsored noopener">Find a class near you</a>
           <a class="button secondary" href="https://classpass.com/search/pilates" target="_blank" rel="noopener">Browse Pilates classes</a>
+        </div>
+      </section>
+      <section class="section practical-guides" data-pe-marker="PE_GUIDES_ROW" aria-labelledby="practical-guides-title">
+        <div class="section-heading">
+          <p class="eyebrow">Practical guides</p>
+          <h2 id="practical-guides-title">Use the history to make better choices now</h2>
+          <p>Buying equipment, choosing classes, or building a reading shelf is easier when the lineage and tradeoffs are clear.</p>
+        </div>
+        <div class="article-card-grid compact">
+          <a class="article-card" href="guides/best-pilates-reformers-for-home.html"><img src="assets/graphics/blueprint-reformer.png" alt="Universal Reformer blueprint"><span>Guide</span><h3>Best Pilates Reformers for Home</h3><p>A cautious, category-first guide to major home Reformer choices.</p></a>
+          <a class="article-card" href="guides/pilates-mat-buying-guide.html"><img src="assets/graphics/dossier-pillars.png" alt="Contrology principles graphic"><span>Guide</span><h3>Pilates Mat Buying Guide</h3><p>What actually matters for mat work and spinal articulation.</p></a>
+          <a class="article-card" href="guides/essential-pilates-reading-list.html"><img src="assets/graphics/blueprint-legacy.png" alt="Pilates legacy graphic"><span>Guide</span><h3>Essential Pilates Reading List</h3><p>Original books and respected modern references.</p></a>
+          <a class="article-card" href="guides/mat-vs-reformer-vs-online-pilates-cost.html"><img src="assets/graphics/graphic-4-three-paths-hero.svg" alt="Three paths comparison graphic"><span>Guide</span><h3>Mat vs Reformer vs Online</h3><p>Cost math and decision rules for beginners.</p></a>
         </div>
       </section>
 
@@ -374,18 +418,28 @@
           <p class="form-note">
             Powered by Kit. You can unsubscribe at any time.
           </p>
+          <p class="form-note">You'll get your guide right away, plus a few short emails over the next two weeks - then occasional updates.</p>
+
           <p class="download-note">
             Prefer the file now? <a href="assets/downloads/pilates-starter-decision-guide.pdf" download>Download the PDF decision guide</a>.
           </p>
+          <p class="download-note">Teaching Pilates? There is a <a href="teachers-guide/">deeper sourcebook for instructors</a> in development.</p>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <p>&copy; <span id="year"></span> Pilates Explained.</p>
-      <a href="privacy.html">Privacy</a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="privacy.html">Privacy</a>
+        <a href="affiliate-disclosure/">Affiliate disclosure</a>
+        <a href="partners/">Partner with us</a>
+        <a href="teachers-guide/">For Teachers</a>
+      </nav>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/affiliates.js" defer></script>
+    <script src="assets/js/analytics.js" defer></script>
+    <script src="script.js" defer></script>
   </body>
 </html>

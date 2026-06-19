@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
   <title id="title">Pilates Explained mark</title>
-  <desc id="desc">A circular archival mark with a Reformer, open book, and Pilates Explained initials.</desc>
-  <rect width="160" height="160" rx="80" fill="#fffaf2"/>
-  <circle cx="80" cy="80" r="68" fill="none" stroke="#8a6a35" stroke-width="7"/>
-  <circle cx="80" cy="80" r="52" fill="none" stroke="#d4c4ae" stroke-width="3"/>
-  <path d="M38 94h84" stroke="#1e2527" stroke-width="6" stroke-linecap="round"/>
-  <rect x="49" y="72" width="48" height="16" rx="3" fill="#a77b46"/>
-  <path d="M45 72V52M92 72V52M44 52h50" stroke="#1e2527" stroke-width="4" stroke-linecap="round"/>
-  <path d="M64 55c10-8 20-8 30 0v24c-10-7-20-7-30 0z" fill="#f7f1e8" stroke="#8a6a35" stroke-width="3"/>
-  <path d="M94 55c10-8 20-8 30 0v24c-10-7-20-7-30 0z" fill="#f7f1e8" stroke="#8a6a35" stroke-width="3"/>
-  <path d="M38 111h84" stroke="#8a6a35" stroke-width="4" stroke-linecap="round"/>
-  <text x="80" y="135" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#1e2527">PE</text>
+  <desc id="desc">A circular archival mark combining a Pilates Reformer, an open source book, and a controlled movement arc.</desc>
+  <rect width="160" height="160" rx="80" fill="#FAF5F0"/>
+  <circle cx="80" cy="80" r="69" fill="none" stroke="#1A7A6D" stroke-width="7"/>
+  <circle cx="80" cy="80" r="53" fill="none" stroke="#D4C9BE" stroke-width="3"/>
+  <path d="M33 101h94" stroke="#2C2C2C" stroke-width="6" stroke-linecap="round"/>
+  <rect x="47" y="76" width="52" height="17" rx="3" fill="#8B6914"/>
+  <path d="M42 76V53M96 76V53M41 53h57" fill="none" stroke="#2C2C2C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M59 57c9-8 19-8 30 0v25c-11-7-21-7-30 0z" fill="#FFFFFF" stroke="#8B6914" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M89 57c11-8 21-8 30 0v25c-11-7-21-7-30 0z" fill="#FFFFFF" stroke="#8B6914" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M45 119c24-17 46-17 70 0" fill="none" stroke="#1A7A6D" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="45" cy="101" r="5" fill="#FAF5F0" stroke="#2C2C2C" stroke-width="3"/>
+  <circle cx="115" cy="101" r="5" fill="#FAF5F0" stroke="#2C2C2C" stroke-width="3"/>
 </svg>
