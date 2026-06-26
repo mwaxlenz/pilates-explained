@@ -11,6 +11,7 @@ The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build 
 - `articles/` - article hub plus 16 article pages, including the three-part Classical / Modern / Lagree comparison series.
 - `assets/brand/` - Pilates Explained logo, mark, and banner.
 - `assets/downloads/pilates-starter-decision-guide.pdf` - current branded PDF decision guide.
+- `thanks/starter-guide/` - MailerLite success page and GA4 lead confirmation page.
 - `scripts/generate_decision_guide_pdf.py` - reproducible source for regenerating the PDF guide.
 - `privacy.html` - simple pre-launch privacy policy.
 - `404.html`, `robots.txt`, `sitemap.xml` - launch support files.
@@ -55,7 +56,7 @@ If the repository contains several project folders and this is a subfolder:
 3. Connect the GitHub repository to Netlify.
 4. Add `pilatesexplained.com` and `www.pilatesexplained.com` in Netlify domain management.
 5. Confirm the MailerLite starter-guide form is active and the success message links to the PDF guide.
-6. Update `privacy.html` after adding analytics or affiliate links.
+6. Confirm GA4 Realtime/DebugView receives `generate_lead`, `pdf_download`, quiz, article, and affiliate events.
 7. Add affiliate disclosure language before using monetized ClassPass links.
 8. Replace or add MailerLite embeds if a redesigned form or landing flow is created.
 

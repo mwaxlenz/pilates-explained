@@ -103,7 +103,13 @@
   let answers = [];
   let started = false;
 
-  const track = (name, params = {}) => window.PEAnalytics?.track?.(name, params);
+  const track = (name, params = {}) => {
+    if (window.PEAnalytics?.track) {
+      window.PEAnalytics.track(name, params);
+      return;
+    }
+    document.dispatchEvent(new CustomEvent("pe:track", { detail: { eventName: name, params } }));
+  };
   const scoreAnswers = () => {
     const scores = { classical: 0, contemporary: 0, lagree: 0, onlineMat: 0, rehabAdjacent: 0 };
     answers.forEach((answer) => {
@@ -152,7 +158,8 @@
   const renderResult = () => {
     const { scores, result } = scoreAnswers();
     const profile = profiles[result];
-    track("quiz_complete", { result: result === "onlineMat" ? "online-mat" : result });
+    const normalizedResult = result === "onlineMat" ? "online-mat" : result;
+    track("quiz_complete", { result: normalizedResult, result_label: labels[result] });
     root.innerHTML = `
       <section class="quiz-result" aria-live="polite">
         <p class="eyebrow">Your path</p>
@@ -163,6 +170,18 @@
         <p class="form-note">Scores: ${order.map((key) => `${labels[key]} ${scores[key]}`).join(" · ")}</p>
       </section>
     `;
+    root.querySelectorAll("a[href]").forEach((link) => {
+      link.addEventListener("click", () => {
+        track("quiz_result_click", {
+          result: normalizedResult,
+          result_label: labels[result],
+          link_url: new URL(link.getAttribute("href"), location.href).href,
+          link_text: link.textContent.trim(),
+          cta_location: "quiz_result",
+        });
+      });
+    });
+
     root.querySelector("[data-retake]").addEventListener("click", () => {
       index = 0;
       answers = [];
