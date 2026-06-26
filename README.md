@@ -2,11 +2,11 @@
 
 Static launch build for `pilatesexplained.com`.
 
-The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build pipeline. It includes a homepage, About page, Privacy page, article hub, 16 articles, brand SVGs, sitemap, robots file, video/audio assets, a Classical / Modern / Lagree comparison section, Kit-powered starter-guide email forms, and a branded PDF starter decision guide download.
+The site is plain HTML/CSS/JS, so it can be deployed on Netlify without a build pipeline. It includes a homepage, About page, Privacy page, article hub, 16 articles, brand SVGs, sitemap, robots file, video/audio assets, a Classical / Modern / Lagree comparison section, MailerLite-powered starter-guide email forms, and a branded PDF starter decision guide download.
 
 ## Files
 
-- `index.html` - homepage with story, media, visual dossier, equipment, comparison table, timeline, articles, source library, studio discovery, and Kit form.
+- `index.html` - homepage with story, media, visual dossier, equipment, comparison table, timeline, articles, source library, studio discovery, and MailerLite starter-guide form.
 - `about.html` - project rationale and editorial positioning.
 - `articles/` - article hub plus 16 article pages, including the three-part Classical / Modern / Lagree comparison series.
 - `assets/brand/` - Pilates Explained logo, mark, and banner.
@@ -54,10 +54,10 @@ If the repository contains several project folders and this is a subfolder:
 2. Do not buy Namecheap hosting, WordPress hosting, business email, or PremiumDNS for this Netlify launch.
 3. Connect the GitHub repository to Netlify.
 4. Add `pilatesexplained.com` and `www.pilatesexplained.com` in Netlify domain management.
-5. Confirm the Kit starter-guide form and incentive email are active.
+5. Confirm the MailerLite starter-guide form is active and the success message links to the PDF guide.
 6. Update `privacy.html` after adding analytics or affiliate links.
 7. Add affiliate disclosure language before using monetized ClassPass links.
-8. Replace the Kit embed if a redesigned form or landing flow is created.
+8. Replace or add MailerLite embeds if a redesigned form or landing flow is created.
 
 ## Current brand implementation
 
